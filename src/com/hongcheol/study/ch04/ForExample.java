@@ -12,12 +12,12 @@ public class ForExample {
 //		**********
 //		출력하는 프로그램을 만드시오
 
-//		int i = 1;
-//		while(i <= 5) {
-//		System.out.println("**********");
-//		i++;
-//		}
-//		
+		int i = 1;
+		while(i <= 5) {
+		System.out.println("**********");
+		i++;
+		}
+		
 		
 		
 		
@@ -61,19 +61,20 @@ public class ForExample {
 		
 		System.out.println("--------------------");
 		
-		for(int i = 1; i <= 10; i++) {
-			for(int j= 1; j <= i; j++) {
-				if(j== 10);
-				System.out.println(j);
-			}if(i%2==1) {
-				
+		for(int i=1; i<=10; i++) {
+			if(i == 10) {
+				for(int j=1: j<=i-1; j++) {
+					if(j%2==1) {
+						System.out.println(j);
+					}else {
+						System.out.println("");
+					}
+				}
 			}
-			
 		}
-	
-		
-		
-		
-	}
 
+		
+  }
 }
+	
+
