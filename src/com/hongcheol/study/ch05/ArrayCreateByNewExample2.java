@@ -12,7 +12,9 @@ public class ArrayCreateByNewExample2 {
 		arr1[0]=77;
 		arr2[1]=88;
 		
+		
 		System.out.println("arr1[0] : "+ arr1[0]);
+		System.out.println("arr2[1] :" + arr2[1]);
 		
 	}
 
