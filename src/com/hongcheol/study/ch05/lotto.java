@@ -57,7 +57,7 @@ public class lotto {
 				}
 				
 				// 3연속 걸르기
-				for(int i=0; i<4; i++) {
+//				for(int i=0; i<4; i++) {
 //					1,2,3
 //					2,3,4
 //					3,4,5
