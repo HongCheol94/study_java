@@ -6,7 +6,7 @@ public class HermesExample {
 		
 	Iphone iphone = new Iphone();
 	
-	System.out.println("iphone.name:" + iphone.name);
+	System.out.println("iphone.names:" + iphone.names);
 	
 	iphone.pr();
 	
