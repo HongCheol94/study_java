@@ -57,20 +57,7 @@ public class lotto {
 				}
 				
 				// 3연속 걸르기
-//				for(int i=0; i<4; i++) {
-//					1,2,3
-//					2,3,4
-//					3,4,5
-//					4,5,6
-//					4번만 검사하면 됨
-					if(randomArray[i]+1 == randomArray[i+1] && randomArray[i] + 2 == randomArray[i+2]) {
-						System.out.println("걸렸다.: "+ randomArray[i] + ":" + randomArray[i+1] + ":" + randomArray[i+2]);
-						isLinearNumber = true;
-						break;
-					} else{
-						isLinearNumber = false;
-					}
-				}
+
 				
 				//문자열로 변환
 			}
