@@ -24,13 +24,13 @@ public class IphoneExample {
 		Car car = new Car();
 		System.out.println("car.name" + car.name);
 
-		iphone.setId(123);
-		iphone.setName("Haneul");
-		iphone.setPassword("dsfjklbnkasf!@");
-
-		System.out.println("iphone.getid() : " + iphone.getId());
-		System.out.println("iphone.getName() : " + iphone.getName());
-		System.out.println("iphone.getPassword() : " + iphone.getPassword());
+//		iphone.setId(123);
+//		iphone.setName("Haneul");
+//		iphone.setPassword("dsfjklbnkasf!@");
+//
+//		System.out.println("iphone.getid() : " + iphone.getId());
+//		System.out.println("iphone.getName() : " + iphone.getName());
+//		System.out.println("iphone.getPassword() : " + iphone.getPassword());
 	
 		//	sum(a,b);  IphoneExample main 파일 내부 함수 사용 
 			
