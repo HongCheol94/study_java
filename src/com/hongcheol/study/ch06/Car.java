@@ -1,4 +1,4 @@
-package ch06;
+package com.hongcheol.study.ch06;
 
 public class Car {
 	
