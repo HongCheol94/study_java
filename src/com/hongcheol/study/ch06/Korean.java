@@ -18,4 +18,27 @@ public class Korean {
 		this.name = name;
 		this.age = age;
 	}
+	
+	static String nationality = "대한민국";
+	
+	static int staticTest(int a) {
+		return a+10;
+
+	}
+	int staticTest2(int a) {
+	return a-1010;
+	}
+	
+	int ttest () {
+		Arithmetic arithmetic = new Arithmetic();
+		arithmetic.aaa(12);
+		return 1;
+	}
+	public void ttest2() {
+//		Arithmetic arithmetic = new Arithmetic();
+//		arithmetic.static(Test);
+		
+		Arithmetic.staticTest();
+		
+	}
 }
