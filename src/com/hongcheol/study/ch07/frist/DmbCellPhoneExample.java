@@ -15,13 +15,19 @@ public class DmbCellPhoneExample{
 		dmbCellPhone.turnOffDmb();
 		
 		// 생성자를 이용하여 자식 객체 생성
-		DmbCellPhone dmbCellPhone2 = new DmbCellPhone("Iphone10","Black", 6);
+		DmbCellPhone dmbCellPhone2 = new DmbCellPhone();
 		
 		// dmbCellPhone2 객체를 사용하여 자식 클래스의 함수 전체 호출
-		dmbCellPhone.turnOnDmb();
-		dmbCellPhone.changeChannelDmb(89);
-		dmbCellPhone.turnOffDmb();
+		dmbCellPhone2.turnOnDmb();
+		dmbCellPhone2.turnOffDmb();
+		dmbCellPhone2.changeChannelDmb(85);
 		
+		dmbCellPhone2.powerOn();
+		dmbCellPhone2.powerOff();
+		dmbCellPhone2.bell();
+		dmbCellPhone2.sendVoice("");
+		dmbCellPhone2.receiveVoice("");
+		dmbCellPhone2.hangUp();
 	}
 	
 
