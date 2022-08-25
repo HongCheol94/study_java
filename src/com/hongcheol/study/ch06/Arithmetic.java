@@ -40,6 +40,11 @@ public class Arithmetic {
 		
 	}
 
+	public static void staticTest() {
+		
+		
+	}
+
 
 }
 
