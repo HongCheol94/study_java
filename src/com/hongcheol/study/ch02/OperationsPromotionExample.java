@@ -5,7 +5,7 @@ public class OperationsPromotionExample {
 	public static void main(String[] args) {
 		
 //		byte 변수 byteValue 선언하고 12로 초기화
-//		byte 변수 byteValue 선언하고 12로 초기화
+//		byte 변수 byteValue2 선언하고 12로 초기화
 //		byte 변수 byteValue3 선언하고 위의 두 변수를 합 연산 수행	
 //		byteValue3 결과 출력		
 		

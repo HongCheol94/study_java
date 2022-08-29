@@ -11,10 +11,6 @@ public class BooleanExample {
 		} else {
 			System.out.println("시작합니다."); //false면 실행
 		}
-
-		
-	
-	
 	}
 
 }
