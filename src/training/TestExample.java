@@ -11,7 +11,7 @@ public class TestExample {
 		int[] arr = {40, 10, 20};
 		
 		System.out.println("정렬 전 ==============");
-		sortFirst.printArr(arr);
+		sortFirst.printAtt(arr);
 		System.out.println("정령 후 ==============");
 		sortFirst.sortByasc(arr);
 		sortFirst.printAtt(arr);
