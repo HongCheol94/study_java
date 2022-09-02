@@ -1,6 +1,9 @@
-package com.hongcheol.study.ch07.third;
+package com.hongcheol.study.test;
 
-public class ComputerExample {
+import com.hongcheol.study.ch07.third.Calculator;
+import com.hongcheol.study.ch07.third.Computer;
+
+public class computerExample {
 
 	public static void main(String[] args) {
 		int r = 7;
@@ -12,7 +15,6 @@ public class ComputerExample {
 		Computer computer = new Computer();
 		
 		System.out.println("원면적: "+ computer.areaCircle(2));
-		
 		
 	}
 
