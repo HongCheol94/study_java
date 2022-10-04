@@ -17,9 +17,9 @@ public class SupersonicAirplaneExample {
 //		상수파일 생성 후 코드
 		supersonicAirplane.takeOff();
 		supersonicAirplane.fly();
-		supersonicAirplane.flyMode = Constants.SUPERSONIC;
+		supersonicAirplane.flyMode = Constantss.SUPERSONIC;
 		supersonicAirplane.fly();
-		supersonicAirplane.flyMode = Constants.NORMAL;
+		supersonicAirplane.flyMode = Constantss.NORMAL;
 		supersonicAirplane.fly();
 		supersonicAirplane.land();
 		

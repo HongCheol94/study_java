@@ -1,4 +1,4 @@
-package training;
+package test;
 
 public class Child extends Parents {
 
